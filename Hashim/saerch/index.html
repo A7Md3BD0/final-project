@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+<body style="background-color: #f3f2ef;">
+    <div class="header">
+        <div class="header__left">
+            <svg style="color:#0a66c2; left:50px; transform: translate(45px, -5px); "xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="41" height="41" focusable="false">
+                <path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"></path>
+            </svg>
+          <div style="margin-left:50px ;" class="header__search">
+            <i class="material-icons" > search </i>
+            <input   type="text" placeholder=" Search">
+          </div>
+        </div>
+    
+        <div class="header__right">
+          <div class="headerOption">
+            <i class="material-icons headerOption__icon"> home </i>
+            <h3>Home</h3>
+          </div>
+          <div class="headerOption">
+            <i class="material-icons headerOption__icon"> supervisor_account </i>
+            <h3 class=""> My Network</h3>
+          </div>
+          <div class="headerOption">
+            <i class="material-icons headerOption__icon"> business_center </i>
+            <h3>Jobs</h3>
+          </div>
+          <div class="headerOption">
+            <i class="material-icons headerOption__icon"> chat </i>
+            <h3>Messaging</h3>
+          </div>
+          <div class="headerOption">
+            <i class="material-icons headerOption__icon"> notifications </i>
+            <h3>Notifications</h3>
+          </div>
+          <div class="headerOption">
+            <i class="material-icons headerOption__icon" class="line"> account_circle </i>
+            <h3>Me</h3>
+          </div>
+        </div>
+      </div>
+      <!-- ----------------------------------------------------------- nav---------------------------------------->
+      <nav style="background-color:white; margin-top: 10px;"  class="navbar navbar-expand-lg ">
+        <div class="nas" >
+          
+          <div class="dropdown droo">
+            <button style="background-color:green;color: white; " onclick="myFunction()" class="dropbtn"><b style="font-size: 15px;">jops</b> 
+            </button>
+            <small style="font-size: 30px;margin: 0px;"class="material-icons headerOption__icon" >|</small>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#">all </a>
+              <a href="#">pople</a>
+              <a href="#">jops</a>
+              <a href="#">posts</a>
+              <a href="#">companies</a>
+              <a href="#">groups</a>
+              <a href="#">schools</a>
+              <a href="#">evnts</a>
+              <a href="#">courses</a>
+              <a href="#">servixes</a>
+            </div>
+          </div>
+            <button class="dropbtn "><b style="font-size: 15px;">date posted</b> </button>
+            <button class="dropbtn"><b style="font-size: 15px;">Experience Level</b> </button>
+            <button class="dropbtn"><b style="font-size: 15px;">company</b> </button>
+            <button class="dropbtn"><b style="font-size: 15px;"> jop type</b> </button>
+            <button class="dropbtn"><b style="font-size: 15px;"> on-site/remote</b> </button>
+            <button class="dropbtn"><b style="font-size: 15px;"> easy apply</b> </button>
+            <small style="font-size: 30px;margin: 0px;"class="material-icons headerOption__icon" >|</small>
+            <button style="margin-left: -15px;" class="dropbtn"><b style="font-size: 15px;"> All filters</b> </button>
+          </div>
+        </div>
+      </nav>
+      <!-- -------------------------------------------------------------------------- -->
+      <div class=" container mohv " style="">
+        <div class="col-4 ml-5" style="background:white; height: 680px;overflow:auto;">
+          <div class="had">
+            <p style="margin-top: 10px; margin-left: 20px; line-height: -8px;">Jobs in Egypt</p>
+            <p style="margin-top: 35px; margin-left: -90px; font-size: 12px;">6,018 results</p>
+          <label class="switch" style="margin-top: 18px;margin-left: 260px;">
+            s,
+            <input type="checkbox" checked>
+            <span class="slider round"></span>
+          </label>
+          </div>
+          <hr>
+          <div class="row container ">
+            <div class="col-2">
+                <img src="./imgs/download.jfif" height="70">
+            </div>
+            <div class="col">
+                <a style="color:#000;text-decoration: none;" href="#">
+                    <p class="h66">Freelance eCommerce Designer</p>
+                    <p class="p22">toptal</p>
+                    <p class="p22">Egypt(remote)</p>
+                  <span> <svg style="color:green;margin-left: 10px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" width="24" height="24" focusable="false">
+                        <path d="M12 20a8 8 0 010-16 7.91 7.91 0 014.9 1.69l-1.43 1.42a6 6 0 101.42 1.42l3.82-3.82a1 1 0 000-1.41A1 1 0 0020 3a1 1 0 00-.7.29l-1 1A10 10 0 1022 12h-2a8 8 0 01-8 8zm5-8a5 5 0 11-5-5 4.93 4.93 0 012.76.82l-2.24 2.24A2.24 2.24 0 0012 10a2 2 0 102 2 2.24 2.24 0 00-.07-.51l2.24-2.24A5 5 0 0117 12z"></path>
+                      </svg>
+                      <p class="pop1">Actively recruiting</p>
+                    </span> 
+                    <div style="display:flex ; margin-left: 10px;">
+                    <small style="line-height: 5px;">1 day ago.</small>
+                    <p style="line-height: 5px; color: green;">22 applicants</p>
+                </div>
+                </a>
+            </div>
+          
+        </div>
+        <hr>
+          <div class="row container ">
+            <div class="col-2">
+                <img src="./imgs/1550510562553.jfif" height="70">
+            </div>
+            <div class="col">
+                <a style="color:#000;text-decoration: none;" href="#">
+                    <p class="h66">Vodafone UK Customer Service </p>
+                    <p class="p22">toptal</p>
+                    <p class="p22">Egypt(remote)</p>
+                  <span> <svg style="color:green;margin-left: 10px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" width="24" height="24" focusable="false">
+                        <path d="M12 20a8 8 0 010-16 7.91 7.91 0 014.9 1.69l-1.43 1.42a6 6 0 101.42 1.42l3.82-3.82a1 1 0 000-1.41A1 1 0 0020 3a1 1 0 00-.7.29l-1 1A10 10 0 1022 12h-2a8 8 0 01-8 8zm5-8a5 5 0 11-5-5 4.93 4.93 0 012.76.82l-2.24 2.24A2.24 2.24 0 0012 10a2 2 0 102 2 2.24 2.24 0 00-.07-.51l2.24-2.24A5 5 0 0117 12z"></path>
+                      </svg>
+                      <p class="pop1">Actively recruiting</p>
+                    </span> 
+                    <div style="display:flex ; margin-left: 10px;">
+                    <small style="line-height: 5px;">1 day ago.</small>
+                    <p style="line-height: 5px; color: green;">22 applicants</p>
+                </div>
+                </a>
+            </div>
+          <hr>
+        </div>
+          <div class="row container ">
+            <div class="col-2">
+                <img src="./imgs/ds.jfif" height="70">
+            </div>
+            <div class="col">
+                <a style="color:#000;text-decoration: none;" href="#">
+                    <p class="h66">Freelance eCommerce Designer</p>
+                    <p class="p22">toptal</p>
+                    <p class="p22">Egypt(remote)</p>
+                  <span> <svg style="color:green;margin-left: 10px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" width="24" height="24" focusable="false">
+                        <path d="M12 20a8 8 0 010-16 7.91 7.91 0 014.9 1.69l-1.43 1.42a6 6 0 101.42 1.42l3.82-3.82a1 1 0 000-1.41A1 1 0 0020 3a1 1 0 00-.7.29l-1 1A10 10 0 1022 12h-2a8 8 0 01-8 8zm5-8a5 5 0 11-5-5 4.93 4.93 0 012.76.82l-2.24 2.24A2.24 2.24 0 0012 10a2 2 0 102 2 2.24 2.24 0 00-.07-.51l2.24-2.24A5 5 0 0117 12z"></path>
+                      </svg>
+                      <p class="pop1">Actively recruiting</p>
+                    </span> 
+                    <div style="display:flex ; margin-left: 10px;">
+                    <small style="line-height: 5px;">1 day ago.</small>
+                    <p style="line-height: 5px; color: green;">22 applicants</p>
+                </div>
+                </a>
+            </div>
+          
+        </div>
+          <div class="row container ">
+            <div class="col-2">
+                <img src="./imgs/download.jfif" height="70">
+            </div>
+            <div class="col">
+                <a style="color:#000;text-decoration: none;" href="#">
+                    <p class="h66">Freelance eCommerce Designer</p>
+                    <p class="p22">toptal</p>
+                    <p class="p22">Egypt(remote)</p>
+                  <span> <svg style="color:green;margin-left: 10px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" width="24" height="24" focusable="false">
+                        <path d="M12 20a8 8 0 010-16 7.91 7.91 0 014.9 1.69l-1.43 1.42a6 6 0 101.42 1.42l3.82-3.82a1 1 0 000-1.41A1 1 0 0020 3a1 1 0 00-.7.29l-1 1A10 10 0 1022 12h-2a8 8 0 01-8 8zm5-8a5 5 0 11-5-5 4.93 4.93 0 012.76.82l-2.24 2.24A2.24 2.24 0 0012 10a2 2 0 102 2 2.24 2.24 0 00-.07-.51l2.24-2.24A5 5 0 0117 12z"></path>
+                      </svg>
+                      <p class="pop1">Actively recruiting</p>
+                    </span> 
+                    <div style="display:flex ; margin-left: 10px;">
+                    <small style="line-height: 5px;">1 day ago.</small>
+                    <p style="line-height: 5px; color: green;">22 applicants</p>
+                </div>
+                </a>
+            </div>
+          
+        </div>
+          <div class="row container ">
+            <div class="col-2">
+                <img src="./imgs/download.jfif" height="70">
+            </div>
+            <div class="col">
+                <a style="color:#000;text-decoration: none;" href="#">
+                    <p class="h66">Freelance eCommerce Designer</p>
+                    <p class="p22">toptal</p>
+                    <p class="p22">Egypt(remote)</p>
+                  <span> <svg style="color:green;margin-left: 10px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" width="24" height="24" focusable="false">
+                        <path d="M12 20a8 8 0 010-16 7.91 7.91 0 014.9 1.69l-1.43 1.42a6 6 0 101.42 1.42l3.82-3.82a1 1 0 000-1.41A1 1 0 0020 3a1 1 0 00-.7.29l-1 1A10 10 0 1022 12h-2a8 8 0 01-8 8zm5-8a5 5 0 11-5-5 4.93 4.93 0 012.76.82l-2.24 2.24A2.24 2.24 0 0012 10a2 2 0 102 2 2.24 2.24 0 00-.07-.51l2.24-2.24A5 5 0 0117 12z"></path>
+                      </svg>
+                      <p class="pop1">Actively recruiting</p>
+                    </span> 
+                    <div style="display:flex ; margin-left: 10px;">
+                    <small style="line-height: 5px;">1 day ago.</small>
+                    <p style="line-height: 5px; color: green;">22 applicants</p>
+                </div>
+                </a>
+            </div>
+          
+        </div>
+          <div class="row container ">
+            <div class="col-2">
+                <img src="./imgs/download.jfif" height="70">
+            </div>
+            <div class="col">
+                <a style="color:#000;text-decoration: none;" href="#">
+                    <p class="h66">Freelance eCommerce Designer</p>
+                    <p class="p22">toptal</p>
+                    <p class="p22">Egypt(remote)</p>
+                  <span> <svg style="color:green;margin-left: 10px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" width="24" height="24" focusable="false">
+                        <path d="M12 20a8 8 0 010-16 7.91 7.91 0 014.9 1.69l-1.43 1.42a6 6 0 101.42 1.42l3.82-3.82a1 1 0 000-1.41A1 1 0 0020 3a1 1 0 00-.7.29l-1 1A10 10 0 1022 12h-2a8 8 0 01-8 8zm5-8a5 5 0 11-5-5 4.93 4.93 0 012.76.82l-2.24 2.24A2.24 2.24 0 0012 10a2 2 0 102 2 2.24 2.24 0 00-.07-.51l2.24-2.24A5 5 0 0117 12z"></path>
+                      </svg>
+                      <p class="pop1">Actively recruiting</p>
+                    </span> 
+                    <div style="display:flex ; margin-left: 10px;">
+                    <small style="line-height: 5px;">1 day ago.</small>
+                    <p style="line-height: 5px; color: green;">22 applicants</p>
+                </div>
+                </a>
+            </div>
+          
+        </div>
+          <div class="row container ">
+            <div class="col-2">
+                <img src="./imgs/download.jfif" height="70">
+            </div>
+            <div class="col">
+                <a style="color:#000;text-decoration: none;" href="#">
+                    <p class="h66">Freelance eCommerce Designer</p>
+                    <p class="p22">toptal</p>
+                    <p class="p22">Egypt(remote)</p>
+                  <span> <svg style="color:green;margin-left: 10px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" width="24" height="24" focusable="false">
+                        <path d="M12 20a8 8 0 010-16 7.91 7.91 0 014.9 1.69l-1.43 1.42a6 6 0 101.42 1.42l3.82-3.82a1 1 0 000-1.41A1 1 0 0020 3a1 1 0 00-.7.29l-1 1A10 10 0 1022 12h-2a8 8 0 01-8 8zm5-8a5 5 0 11-5-5 4.93 4.93 0 012.76.82l-2.24 2.24A2.24 2.24 0 0012 10a2 2 0 102 2 2.24 2.24 0 00-.07-.51l2.24-2.24A5 5 0 0117 12z"></path>
+                      </svg>
+                      <p class="pop1">Actively recruiting</p>
+                    </span> 
+                    <div style="display:flex ; margin-left: 10px;">
+                    <small style="line-height: 5px;">1 day ago.</small>
+                    <p style="line-height: 5px; color: green;">22 applicants</p>
+                </div>
+                </a>
+            </div>
+          
+        </div>
+        </div>
+        <hr>
+
+        <div class="col-6 " style="background:white ;height: 680px; margin-left: 3px; overflow: auto;">
+          <div style="margin-left:20px; margin-top: 10px;">
+            <div style="display:flex;">
+            <a href="#"><h3>Article Writer</h3></a>
+            <div style="margin-left: 300px; margin-top: 10px;">
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+              <path d="M23 12l-4.61 7H16l4-6H8a3.92 3.92 0 00-4 3.84V17a4 4 0 00.19 1.24L5.12 21H3l-.73-2.22A6.4 6.4 0 012 16.94 6 6 0 018 11h12l-4-6h2.39z"></path>
+            </svg></a>
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="44" height="24" focusable="false">
+              <path d="M14 12a2 2 0 11-2-2 2 2 0 012 2zM4 10a2 2 0 102 2 2 2 0 00-2-2zm16 0a2 2 0 102 2 2 2 0 00-2-2z"></path>
+            </svg>
+            </a>
+        </div>
+          </div>
+            <p>ShoutVox . Egypt (Remote) <i style="color:green;"> 3 hours ago</i> .28 applicants </p>
+            <div style="display:flex; color: rgb(99, 99, 99);">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+              <path d="M17 6V5a3 3 0 00-3-3h-4a3 3 0 00-3 3v1H2v4a3 3 0 003 3h14a3 3 0 003-3V6zM9 5a1 1 0 011-1h4a1 1 0 011 1v1H9zm10 9a4 4 0 003-1.38V17a3 3 0 01-3 3H5a3 3 0 01-3-3v-4.38A4 4 0 005 14z"></path>
+            </svg>
+            <p class="ml-2"> part-time</p>
+            </div>
+            <div style="display:flex; color: rgb(99, 99, 99);">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                <path d="M4 2v20h16V2zm14 18h-4v-2h-4v2H6V4h12zm-7-8H8v-2h3zm0 4H8v-2h3zm5-4h-3v-2h3zm-5-4H8V6h3zm5 0h-3V6h3zm0 8h-3v-2h3z"></path>
+              </svg>
+            <p class="ml-2"> 1-10 employees</p>
+            </div>
+            <div style="display:flex; color: rgb(99, 99, 99);">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                <path d="M10 20h4v.1a1.9 1.9 0 01-1.9 1.9h-.2a1.9 1.9 0 01-1.9-1.9zm4.68-14.47A1 1 0 0016 5l.76-1.85a1 1 0 00-.54-1.3 1 1 0 00-1.31.54l-.76 1.85a1 1 0 00.53 1.29zm5.09 4.33l1.85-.76a1 1 0 00.54-1.31 1 1 0 00-1.3-.54L19 8a1 1 0 00-.54 1.31 1 1 0 001.3.55zM4.23 14.14l-1.85.76a1 1 0 00-.54 1.31 1 1 0 001.3.54L5 16a1 1 0 00.54-1.31 1 1 0 00-1.3-.55zm17.39.76l-1.85-.76A1 1 0 0019 16l1.85.76a1 1 0 00.78-1.86zM5 8l-1.86-.75a1 1 0 00-1.3.54 1 1 0 00.54 1.31l1.85.76A1 1 0 005 8zm3-3a1 1 0 001.31.54 1 1 0 00.54-1.3L9.1 2.38a1 1 0 00-1.31-.54 1 1 0 00-.54 1.3zm9 6.91V12a5.48 5.48 0 01-1.61 3.88l-.07.08a3.94 3.94 0 00-1.08 1.94L14 19h-4l-.24-1.08A4 4 0 008.68 16l-.07-.07A5.51 5.51 0 017 12v-.1A4.9 4.9 0 0111.9 7h.2a4.9 4.9 0 014.9 4.9zm-2 0A2.9 2.9 0 0012.11 9h-.21A2.9 2.9 0 009 11.9v.1a3.47 3.47 0 001 2.47l.08.08a5.92 5.92 0 011.5 2.45h.84a6 6 0 011.48-2.44l.08-.07A3.48 3.48 0 0015 12z"></path>
+              </svg>
+            <p class="ml-2"> See recent hiring trends for fox publish. <a style="color: rgb(99, 99, 99);" href="#"> Try Premium for free</a></p>
+            </div>
+          </div>
+          <button type="button" class="btn btn-primary rounded-pill">Apply
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+              <path d="M15 1v6h-2V4.41L7.41 10 6 8.59 11.59 3H9V1zm-4 10a1 1 0 01-1 1H5a1 1 0 01-1-1V6a1 1 0 011-1h2V3H5a3 3 0 00-3 3v5a3 3 0 003 3h5a3 3 0 003-3V9h-2z"></path>
+            </svg>
+          </button>
+          <button type="button" class="btn btn-outline-primary rounded-pill ml-2">save</button>
+          <br>
+          <br>
+          <br>
+          <b>About the role:</b>
+          <br>
+          <br>
+          <p>We are hiring writers for an ongoing project which requires regular 
+            content for our company website and other websites that are part of our blog network.</p>
+            <br>
+            <p>To succeed as a freelance writer at ShoutVox, you may be asked to conduct research at a very basic level. Below please 
+              find some of the main responsibilities you will have in this role.
+            </p>
+            <br>
+            <b>Responsibilities:</b>
+            <ul style="margin-left: 15px; margin-top: 15px;">
+              <li>Proficiency in researching and crafting thoughtful and engaging blog content, articles, landing page content, email copy to targeted audiences to help increase conversions</li>
+              <li>In-tune with and open to learning more about our overall content marketing efforts to help us provide the best product possible to our clients</li>
+              <li>Report to our content management team in a timely manner (must answer and respond to emails in 24 hours or less)
+              </li>
+              <li>Collaborate with other members of our marketing team to ensure that all content is on target and optimized for specific audiences
+              </li>
+            </ul>
+            <br>
+            <b>Requirements:</b>
+            <ul style="margin-left: 15px; margin-top: 15px;" >
+              <li>Must be familiar with creating content that is optimized for SEO as well as conversions</li>
+              <li>Must be reliable and able to meet all deliverable deadlines
+              </li>
+              <li>Must work well in a team/collaborative environment
+              </li>
+              <li>Must be communicative and responsive as this is how we provide our best product to clients
+              </li>
+            </ul>
+            <br>
+            <b>Compensation:</b>
+            <ul style="margin-left: 15px; margin-top: 15px;">
+              <li>The freelance writer will receive $45/hour base pay with the opportunity for higher rates depending upon the complexity of the assignment</li>
+            </ul>
+            <br>
+            <b>About us:</b>
+            <br>
+            <br>
+            <p>At ShoutVox, our mission is to assist small businesses in generating more leads to meet sales targets. Our team is comprised of professionals and experts in various industries 
+              that allows us to provide an all-in-one marketing solution that gets results.
+            </p>
+            <br>
+            <p>We welcome applicants from all backgrounds to apply. Diversity and inclusion are more than
+               a mantra here. We believe that uniqueness is a strength that can help accelerate us on the
+               pathway to success. Uniqueness is what helps us differentiate our services and stand out in 
+               a sea of marketing services that too often provide generic services with a cookie-cutter approach.
+            </p>
+            <br>
+            <p>If content writing is a passion of yours, we hope you'll take a moment to apply for our job opening. 
+              We are always on the lookout for good talent! </p>
+              <br>
+              <div style="border: .5px solid rgb(197, 197, 197);border-radius: 10px;">
+                <p style="line-height: -10px;margin-left: 20px;">Pay range unavailable</p> 
+                <small style="color: rgb(87, 87, 87);margin-left: 20px;"> Salary information is not available at the moment.</small>
+              </div>
+              <div style="border: .5px solid rgb(197, 197, 197);border-radius: 10px; margin-top: 20px;">
+                <h6 style="margin-top: 20px; margin-left: 20px;">About the company</h6>
+                <div style="display:flex">
+                  <img class="ml-2" src="./imgs/1653539692018.jfif" alt="" width="72px" height="72px">
+                  <a href="#"><b style="margin-top: 10px;">ShoutVox</b></a>
+                  <p style="margin-top: 30px; margin-left: -70px;">2,886 followers</p>
+                    <button style="width:90px;height: 30px;margin-left: 310px;" type="button" class="btn btn-outline-primary rounded-pill  "> <b>+ Fllow</b></button>
+                </div>
+                <br>
+                <p style="margin-left:20px;">Marketing & Advertising . 2-10 employees . 10 on LinkedIn</p>
+                <br>
+                <p style="margin-left: 20px;">ShoutVox is a boutique digital content marketing firm based in New York City.
+                   We provide more than just articles and blog posts for your business website. 
+                   We will work with you to develop a cohesive strategy that will drive the
+                    strongest ROI for every marketing dollar spent.</p>
+                    <div class="btn" style="border: .5px solid rgb(197, 197, 197);border-radius: 10px; margin-top: 10px; width: 603px;height: 40px; text-align: center;">
+                      <b style="color:#8344cc ;">see more</b>
+                    </div>
+              </div>
+        </div>
+      </div>
+      <script src="./js/Untitled-1.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+</body>
+</html>

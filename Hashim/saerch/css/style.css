@@ -1,0 +1,246 @@
+/* fallback */
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialicons/v138/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+  }
+  
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    
+  }
+ * {
+  
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header__left img {
+    object-fit: contain;
+    height: 30px;
+    margin-right:400px;
+      
+  }
+  
+  .header {
+    display: flex;
+    position: sticky;
+    z-index: 999;
+    justify-content: space-around;
+    border-bottom:0.1px solid lightgray;
+    padding-top: 10px;
+    margin-bottom: -10px;
+    width: 100%;
+    background-color: white;
+    height: 50px;
+  }
+  
+  .header__left {
+    display: flex;
+    
+  }
+  
+  .header__right {
+    display: flex;
+    margin-right: 200px;
+  }
+.line{
+  border-right: black 2px solid;
+}  
+  .header__search {
+    margin-left: -390px;
+    margin-top: -2px;
+    padding: 17px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    height: 22px;
+    width: 300px;
+    color: gray;
+    background-color: #eef3f8;
+  }
+  
+  .header__search > input {
+    outline: none;
+    border: none;
+    background: none;
+  }
+  
+  .headerOption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right:20px;
+    color: gray;
+    cursor: pointer;
+    margin-top: -7px;
+  }
+  
+  .headerOption:hover {
+    color: black;
+  }
+  
+
+  
+  .headerOption h3 {
+    font-size: 12px;
+    margin-top: 8px;
+    font-weight: 400;
+  }
+  
+  .headerOption__icon {
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+  }
+  .nav{
+    background-color: white;
+
+  }
+  .nas{
+    margin-left: 190px;
+  }
+.dropbtn {
+  background-color: white;
+  color: rgb(168, 168, 168);
+  padding: 16px;
+  font-size: 18px;
+  border: none;
+  border: .5px solid;
+  border-radius: 30px;
+  height: 35px;
+  line-height: 5px;
+}
+.dropbtn:hover{
+  background-color: rgba(190, 190, 190, 0.315);
+  border: 2px solid;
+  }
+
+.dropbtn:hover, .dropbtn:focus {
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1; 
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.show {display:block;}
+
+.mohv{
+  display: flex;
+}
+.had{
+  color:rgb(0, 0, 0);
+   background-color:white;
+   width: 432px; 
+   margin-left: -15px;
+    height: 60px;
+     margin-top: 0px;
+     display: flex;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 29px;
+}
+
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom:5px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #144d06;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.contenar{
+  width: 540px;
+   border-radius: 10px;
+  background-color: white;
+  margin-top: 30px;
+  margin-left: -10px;
+}
+.h66{
+  margin-left: 10px;margin-top: 5px;
+  color: blue;
+}
+.p22{
+  line-height: 5px; margin-left: 10px;
+}
+.pop1{
+  margin-top: -25px; margin-left: 40px;
+}
+a{
+   color: #000;
+   text-decoration: none;
+}
