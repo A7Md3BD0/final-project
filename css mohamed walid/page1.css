@@ -1,0 +1,132 @@
+.body{
+    margin: 0;
+    background-color:#f3f2ef
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    height: 10%;
+    width: 10%;
+}
+.icon-link{
+    width: 25%;
+    height: 25%;
+}
+.ico1{
+    margin-top: 10px;
+}
+
+.ves{
+    background-color:#0d6efd ;
+}
+a:visited{
+    background-color: white;
+}
+
+.hav:hover{
+    background-color: rgb(210, 204, 204);
+}
+.hav2:hover{
+    background-color: rgb(194, 194, 244);
+}
+.mohamed{
+    width:80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 80px;
+}    
+.mohamed2{
+    margin-top: -12%;
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+   
+}    
+.logo{
+    width: 20%;
+    height: 20%;
+    margin-top: -10%;
+}
+.image{
+    height: 60px;
+    width: 243px;
+    border-radius: 10px;
+}
+.img-group{
+    width: 572px;
+    height: 140px;
+    border-radius: 15px;
+}
+.img-group2{
+    width: 120px;
+    height: 120px;
+    
+}
+.fixed{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    
+}
+.sms{
+    padding-right: 150px;
+}
+.img-fixed{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+.mo{
+    width: 25%;
+    height: 25%;
+}
+.photo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+
+
+.follow{
+    border: 2px solid black;
+   text-align: center;
+    width: 100%;
+    height: 25%;
+    border-radius: 10px;
+    margin-block-start: 0;
+}
+.follow2{
+    padding-left: 100px;
+}
+
+
+
+.hrfull{
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+
+
+.sticky2{
+    position: sticky;
+    top :100px;
+}
+.sticky1{
+    position: sticky;
+    top :0px;
+    z-index: 1;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+}
+

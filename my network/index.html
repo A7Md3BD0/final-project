@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LinkedIn</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<style>
+  
+  .head:hover{
+    background-color: #EEF3F8;
+  }
+ .fixed{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 500px;
+}
+
+.img-fixed{
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+}
+.flex{
+    display: flex;
+    align-items:center;
+}
+.header-search {
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 17px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    height: 22px;
+    width: 320px;
+    color: gray;
+    background-color: #eef3f8;
+  }
+  .header-search:hover{
+       border-style: solid;             
+}
+  
+  .header-search > input {
+    outline: none;
+    border: none;
+    background: none;
+  }
+  .imag img{
+    width: 50px;
+    border-radius: 50px;
+  }
+  .imag h6{
+    margin-top: -50px;
+    margin-left: 60px;
+  }
+  .imag p{
+    margin-top: -10px;
+    margin-left: 60px;
+  }
+  .imag:hover{
+    background-color: #EBEBEB;
+    height: 60px;
+  }
+
+</style>
+
+<body>
+  <!-- Ahmed Abdo -->
+  <!-- head -->
+  <div class="header">
+    <div class="header__left">
+      <img src="./image/logo.png" alt="" />
+      <div class="header__search">
+        <i class="material-icons"> search </i>
+        <input type="text" placeholder=" Search">
+      </div>
+    </div>
+
+    <div class="header__right">
+      <div class="headerOption">
+        <i class="material-icons headerOption__icon"> home </i>
+        <h3>Home</h3>
+      </div>
+      <div class="headerOption">
+        <i class="material-icons headerOption__icon"> supervisor_account </i>
+        <h3 class=""> My Network</h3>
+      </div>
+      <div class="headerOption">
+        <i class="material-icons headerOption__icon"> business_center </i>
+        <h3>Jobs</h3>
+      </div>
+      <div class="headerOption">
+        <i class="material-icons headerOption__icon"> chat </i>
+        <h3>Messaging</h3>
+      </div>
+      <div class="headerOption">
+        <i class="material-icons headerOption__icon"> notifications </i>
+        <h3>Notifications</h3>
+      </div>
+      <div class="headerOption">
+        <i class="material-icons headerOption__icon" class="line"> account_circle </i>
+        <h3>Me</h3>
+      </div>
+    </div>
+  </div>
+  <!-- end head -->
+  <!-- left -->
+  <div style="margin-left: 1%;margin-right: 1%; margin-top: 5px;"></div>
+  <div class="container">
+
+    <div class="row justify-content-around " style="margin-top:20px">
+      <div class="col-lg-3  col-sm-6 col">
+        <div class="card" style="width: 18rem;">
+
+          <ul class="list">
+            <li class="list-group-item Head_List">Manage My Network</li>
+            <li class="list-group-item text-secondary"> <img src="./image/Annotation 2022-09-08 032843.png"
+                style="height: 25px; width: 25px; margin-right: 10px; margin-left: -10px; margin-top: 10px; margin-bottom: 10px; "
+                alt=""> <a href="./connections/index.html" target="_blank" class="text-decoration-none text-muted">Connections</a> </li>
+            <span id="dots"></span><span id="more">
+              <li class="list-group-item text-secondary "> <img src="./image/contacts.png"
+                  style="height: 25px;  margin-right: 10px; margin-left: -10px; margin-top: 10px; margin-bottom: 10px; "
+                  alt=""><a href="./contact/index.html" target="_blank" class="text-decoration-none text-muted">Contacts</a></li>
+              <li class="list-group-item text-secondary"> <img src="./image/people.png"
+                  style="height: 25px;  margin-right: 10px; margin-left: -10px; margin-top: 10px; margin-bottom: 10px; "
+                  alt="">People I Follow <span class="badge text-secondary rounded-pill"
+                  style="margin-left: 78px;">25</span></li>
+              <li class="list-group-item text-secondary"> <img src=".//image/groups.png"
+                  style="height: 25px; margin-right: 10px; margin-left: -10px; margin-top: 10px; margin-bottom: 10px; "
+                  alt="">Groups <span class="badge text-secondary rounded-pill" style="margin-left: 132px;">14</span>
+              </li>
+              <li class="list-group-item text-secondary"> <img src="./image/events.png"
+                  style="height: 25px; margin-right: 10px; margin-left: -10px; margin-top: 10px; margin-bottom: 10px; "
+                  alt=""><a href="./events/index.html" target="_blank" class="text-decoration-none text-muted">Events</a></li>
+              <li class="list-group-item text-secondary"> <img src="./image/pages.png"
+                style="height: 25px;  margin-right: 10px; margin-left: -10px; margin-top: 10px; margin-bottom: 10px; "
+                alt=""><a href="./pages/index.html" target="_blank" class="text-decoration-none text-muted">Pages <span class="badge text-secondary rounded-pill" style="margin-left: 150px;">6</span></a></li>
+              <li class="list-group-item text-secondary"> <img src="./image/newslests.png"
+                  style="height: 25px; margin-right: 10px; margin-left: -10px; margin-top: 10px; margin-bottom: 10px; "
+                  alt="">Newsletters</li>
+              <li class="list-group-item text-secondary "> <img src="./image/hashtags.png"
+                  style="height: 25px; margin-right: 10px; margin-left: -10px; margin-top: 10px; margin-bottom: 10px; "
+                  alt=""><a href="./hashtags/index.html" target="_blank" class="text-decoration-none text-muted">Hashtags</a> </li>
+            </span>
+            <button type="button " class="btn bi " style="margin-left: -30px;   color: gray;" onclick="myFunction()"
+              id="myBtn"> <img src="./image/cup.svg" alt=""> </button>
+
+            <hr class="new1">
+
+            <div class="image">
+              <img src="./image/ADs.jpg" alt="">
+              
+              <div
+              class="text-center mt-3 " 
+              style="overflow: visible"
+              
+            >
+              <span>
+                <a href="https://about.linkedin.com/" class="link m-2  text-muted"
+                  >About
+                  </a
+                >
+              </span>
+              <span>
+                <a
+                  href="https://www.linkedin.com/accessibility?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.accessibility"
+                  class="link m-2"
+                  >Accessibility</a
+                >
+              </span>
+              <span >
+                <a
+                  href="https://www.linkedin.com/help/linkedin?trk=footer_d_flagship3_feed&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.help"
+                  class="link m-2"
+                  >Help Center</a
+                >
+              </span>
+              <span><a href="" class="link m-2">Privacy & Terms i</a></span>
+              <span>
+                <a
+                  href="https://www.linkedin.com/help/linkedin/answer/62931?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.ad_choices"
+                  class="link m-2"
+                  >Ad Choices</a
+                >
+              </span>
+              <span>
+                <a
+                  href="https://www.linkedin.com/ad/start?trk=n_nav_ads_rr&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.advertising"
+                  class="link m-2"
+                  >Advertising
+
+                  </a
+                >
+              </span>
+              <div class="text-center" style="margin-top: 10px">
+                <img
+                  src="./image/foot.png"
+                  width="80px"
+                  height="20px"
+                /><span style="font-size: 10px">Linkedin Corporation © 2022</span>
+              </div>
+            </div>
+            </div>
+          </ul>
+        </div>
+        <!-- end left -->
+        <!-- right -->
+      </div>
+      <div class="col-lg-8  col- d-flex ">
+        <div class="card  w-100" style="height: 40px;">
+          <div class="card-body" style="margin-top: -10px;">
+            No pending invitations</div>
+          <a href="#" class="a">Manage</a>
+          <div class="card">
+            <!-- 1 -->
+            <div class="card-body" style="margin-top: 10px;">
+              Recommended for you</div>
+            <a href="#" class="a">Manage</a>
+            <div class="hover">
+            <div class="row row-cols-1 row-cols-md-3 g-4 " style="margin-left: 10px; margin-right: 10px;">
+              <div class="col ">
+                <div class="card w-100">
+                  <img src="./image/cover.jfif" class="card-img-top" alt="...">
+                  <div class="card-body hov">
+                    <div class="card-body "><img src="./image/mo.gamal.jfif" class="rounded-circle "
+                        style="margin-top: -90px; margin-left: -20px; width: 70px;" alt=""></div>
+                    <h6 class="card-title " style="margin-top: -30px;">Mohamed Gamal</h6>
+                    <div class="card-text opacity-75">Cross-platform developer(Flutter)| ICT Instructor</div>
+                    <a href="#" class="btn btn-outline-primary  rounded-5 w-100" style="margin-top: 0px;">Follow</a>
+
+                  </div>
+
+                </div>
+              </div>
+              <div class="col ">
+                <div class="card w-100">
+                  <img src="./image/cover2.jpg" class="card-img-top" alt="...">
+                  <div class="card-body hov">
+                    <div class="card-body "><img src="./image/pic2.jpg" class="rounded-circle "
+                        style="margin-top: -90px; margin-left: -20px; width: 70px;" alt=""></div>
+                    <h6 class="card-title " style="margin-top: -30px;">Abdelrhman Mohamed Abdo</h6>
+                    <div class="card-text opacity-75">Entrepreneurship Coach | Career coach
+                    </div>
+                    <a href="#" class="btn btn-outline-primary  rounded-5 w-100" style="margin-bottom: 1px;">Follow</a>
+
+                  </div>
+
+                </div>
+              </div>
+              <div class="col m">
+                <div class="card w-100">
+                  <img src="./image/cover3.jpg" class="card-img-top" alt="...">
+                  <div class="card-body hov">
+                    <div class="card-body "><img src="./image/pic3.jpg" class="rounded-circle "
+                        style="margin-top: -90px; margin-left: -20px; width: 70px;" alt=""></div>
+                    <h6 class="card-title " style="margin-top: -30px;">Ramy Mohamed</h6>
+                    <div class="card-text opacity-75">Creative Graphic Designer <br> </div>
+                    <a href="#" class="btn btn-outline-primary  rounded-5 w-100" style="margin-top: 40px;">Follow</a>
+
+                  </div>
+
+                </div>
+              </div>
+              <div class="col ">
+                <div class="card w-100">
+                  <img src="./image/cover4.jpg" class="card-img-top" alt="...">
+                  <div class="card-body hov">
+                    <div class="card-body "><img src="./image/pic4.jpg" class="rounded-circle "
+                        style="margin-top: -90px; margin-left: -20px; width: 70px;" alt=""></div>
+                    <h6 class="card-title " style="margin-top: -30px;">Yasser Mohamed</h6>
+                    <div class="card-text opacity-75">operation manager at Dandra Al-Ebda3</div>
+                    <a href="#" class="btn btn-outline-primary  rounded-5 w-100"style="margin-top:24px ;" >Follow</a>
+
+                  </div>
+
+                </div>
+              </div>
+              <div class="col ">
+                <div class="card w-100">
+                  <img src="./image/cover5.jpg " class="card-img-top" alt="">
+                  <div class="card-body hov">
+                    <div class="card-body "><img src="./image/pic5.jpg" class="rounded-circle "
+                        style="margin-top: -90px; margin-left: -20px; width: 70px;" alt=""></div>
+                    <h6 class="card-title " style="margin-top: -30px;">Bill Gates </h6>
+                    <div class="card-text opacity-75">Co-chair, Bill & Melinda Gates Foundation </div>
+                    <a href="#" class="btn btn-outline-primary  rounded-5 w-100" style="margin-top: 25px;">Follow</a>
+
+                  </div>
+
+                </div>
+              </div>
+              <div class="col ">
+                <div class="card w-100">
+                  <img src="./image/cover.jfif" class="card-img-top" alt="...">
+                  <div class="card-body hov">
+                    <div class="card-body "><img src="./image/mo.gamal.jfif" class="rounded-circle "
+                        style="margin-top: -90px; margin-left: -20px; width: 70px;" alt=""></div>
+                    <h6 class="card-title " style="margin-top: -30px;">Mohamed Gamal</h6>
+                    <div class="card-text opacity-75">Cross-platform developer(Flutter)| ICT Instructor</div>
+                    <a href="#" class="btn btn-outline-primary  rounded-5 w-100" style="margin-top: 5px;">Follow</a>
+
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+            <!-- end 1 -->
+            <!-- 2 -->
+           <div style="margin-top: 50px; margin-left: 10px;"> People who follow Osama Elzero also follow</div>
+          <a href="#" class="b"> See all</a>
+          <div class="row row-cols-1 row-cols-md-3 g-4 " style="margin-left: 10px; margin-right: 10px;">
+            <div class="col ">
+              <div class="card w-100">
+                <img src="./image/coveros1.jpg" class="card-img-top" alt="...">
+                <div class="card-body hov">
+                  <div class="card-body "><img src="./image/os1.jpg" class="rounded-circle "
+                      style="margin-top: -90px; margin-left: -20px; width: 70px;" alt=""></div>
+                  <h6 class="card-title " style="margin-top: -30px;">Mansour Koura                  </h6>
+                  <div class="card-text opacity-75">Junior Full Stack Web Developer // HTML & CSS | JavaScript (ES6)...                 </div>
+                  <a href="#" class="btn btn-outline-primary  rounded-5 w-100" style="margin-top: 0px;">Follow</a>
+
+                </div>
+
+              </div>
+            </div>
+            <div class="col ">
+              <div class="card w-100">
+                <img src="./image/cover.jfif" class="card-img-top" alt="...">
+                <div class="card-body hov">
+                  <div class="card-body "><img src="./image/os2.jpg" class="rounded-circle "
+                      style="margin-top: -90px; margin-left: -20px; width: 70px;" alt=""></div>
+                  <h6 class="card-title " style="margin-top: -30px;">mohamed tayel
+                  </h6>
+                  <div class="card-text opacity-75">.Net backend team leader
+
+                  </div>
+                  <a href="#" class="btn btn-outline-primary  rounded-5 w-100" style="margin-bottom: 1px; margin-top: 40px;">Follow</a>
+
+                </div>
+
+              </div>
+            </div>
+            <div class="col m">
+              <div class="card w-100">
+                <img src="./image/cover3.jpg" class="card-img-top" alt="...">
+                <div class="card-body hov">
+                  <div class="card-body "><img src="./image/pic3.jpg" class="rounded-circle "
+                      style="margin-top: -90px; margin-left: -20px; width: 70px;" alt=""></div>
+                  <h6 class="card-title " style="margin-top: -30px;">Ramy Mohamed</h6>
+                  <div class="card-text opacity-75">Creative Graphic Designer <br> </div>
+                  <a href="#" class="btn btn-outline-primary  rounded-5 w-100" style="margin-top: 40px;">Follow</a>
+
+                </div>
+
+              </div>
+            </div>
+            <div class="col ">
+              <div class="card w-100">
+                <img src="./image/cover4.jpg" class="card-img-top" alt="...">
+                <div class="card-body hov">
+                  <div class="card-body "><img src="./image/pic4.jpg" class="rounded-circle "
+                      style="margin-top: -90px; margin-left: -20px; width: 70px;" alt=""></div>
+                  <h6 class="card-title " style="margin-top: -30px;">Yasser Mohamed</h6>
+                  <div class="card-text opacity-75">operation manager at Dandra Al-Ebda3</div>
+                  <a href="#" class="btn btn-outline-primary  rounded-5 w-100"style="margin-top:24px ;" >Follow</a>
+
+                </div>
+
+              </div>
+            </div>
+            <div class="col ">
+              <div class="card w-100">
+                <img src="./image/cover.jfif" class="card-img-top" alt="">
+                <div class="card-body hov">
+                  <div class="card-body "><img src="./image/os3.jpg" class="rounded-circle "
+                      style="margin-top: -90px; margin-left: -20px; width: 70px;" alt=""></div>
+                  <h6 class="card-title " style="margin-top: -30px;">Islam Mahfouz </h6>
+                  <div class="card-text opacity-75">Founder @Codezilla | Director of Arabic Content @freeCodeCamp | ex-Udacity </div>
+                  <a href="#" class="btn btn-outline-primary  rounded-5 w-100" style="margin-top: 5px;">Follow</a>
+
+                </div>
+
+              </div>
+            </div>
+            <div class="col ">
+              <div class="card w-100">
+                <img src="./image/cover.jfif" class="card-img-top" alt="...">
+                <div class="card-body hov">
+                  <div class="card-body "><img src="./image/mo.gamal.jfif" class="rounded-circle "
+                      style="margin-top: -90px; margin-left: -20px; width: 70px;" alt=""></div>
+                  <h6 class="card-title " style="margin-top: -30px;">Mohamed Gamal</h6>
+                  <div class="card-text opacity-75">Cross-platform developer(Flutter)| ICT Instructor</div>
+                  <a href="#" class="btn btn-outline-primary  rounded-5 w-100" style="margin-top: 5px;">Follow</a>
+
+                </div>
+          
+            
+        </div>
+
+
+      </div>
+<!-- end 2 -->
+<!-- 3 -->
+    </div>
+    <div style="margin-top: 50px; margin-left: 10px;"> People in Egypt are following    </div>
+          <a href="#" class="b"> See all</a>
+          <div class="row row-cols-1 row-cols-md-3 g-4 " style="margin-left: 10px; margin-right: 10px;">
+            <div class="col ">
+              <div class="card w-100">
+                <img src="./image/coveros1.jpg" class="card-img-top" alt="...">
+                <div class="card-body hov">
+                  <div class="card-body "><img src="./image/p2.jfif" class="rounded-circle "
+                      style="margin-top: -90px; margin-left: -20px; width: 70px;" alt=""></div>
+                  <h6 class="card-title " style="margin-top: -30px;">Mansour Ahmed</h6>
+                  <div class="card-text opacity-75">Junior Full Stack Web Developer // HTML & CSS | JavaScript (ES6)...                 </div>
+                  <a href="#" class="btn btn-outline-primary  rounded-5 w-100" style="margin-top: 0px;">Follow</a>
+
+                </div>
+
+              </div>
+            </div>
+            <div class="col ">
+              <div class="card w-100">
+                <img src="./image/cover.jfif" class="card-img-top" alt="...">
+                <div class="card-body hov">
+                  <div class="card-body "><img src="./image/p3.jfif" class="rounded-circle "
+                      style="margin-top: -90px; margin-left: -20px; width: 70px;" alt=""></div>
+                  <h6 class="card-title " style="margin-top: -30px;">Ahmed Abdo
+                  </h6>
+                  <div class="card-text opacity-75">.Net backend team leader
+
+                  </div>
+                  <a href="#" class="btn btn-outline-primary  rounded-5 w-100" style="margin-bottom: 1px; margin-top: 40px;">Follow</a>
+
+                </div>
+
+              </div>
+            </div>
+            <div class="col m">
+              <div class="card w-100">
+                <img src="./image/cover.jfif" class="card-img-top" alt="...">
+                <div class="card-body hov">
+                  <div class="card-body "><img src="./image/os1.jpg" class="rounded-circle "
+                      style="margin-top: -90px; margin-left: -20px; width: 70px;" alt=""></div>
+                  <h6 class="card-title " style="margin-top: -30px;">Ekhshin</h6>
+                  <div class="card-text opacity-75">Creative Graphic Designer <br> </div>
+                  <a href="#" class="btn btn-outline-primary  rounded-5 w-100" style="margin-top: 40px;">Follow</a>
+
+                </div>
+
+              </div>
+            </div>
+     
+
+    </div>
+    <!-- end 3 -->
+    <!-- 4 -->
+    <div style="margin-top: 50px; margin-left: 10px;">Online events for you</div>
+          <a href="#" class="b"> See all</a>
+          <div class="row row-cols-1 row-cols-md-3 g-4 " style="margin-left: 10px; margin-right: 10px;">
+            <div class="col ">
+              <div class="card" style="width: 230px;">
+                <img src="./image/evcover1.png" class="card-img-top" alt="..." >
+                <div class="card-body hov">
+                  <h6 class="card-title " style="margin-top: -10px;">Get Full Training Scholarship in 2022</h6>
+                  <div class="card-text opacity-75">fri, sep 30 - wed, Nov 30 <br> 7,472 attendess         </div>
+                  <a href="#" class="btn btn-outline-primary  rounded-5 w-100" style="margin-top: 0px;">View</a>
+
+                </div>
+
+              </div>
+            </div>
+            <div class="col ">
+              <div class="card" style="width: 230px;">
+                <img src="./image/evcover2.png" class="card-img-top" alt="..." >
+                <div class="card-body hov">
+                  <h6 class="card-title " style="margin-top: -10px;">Get Full Training Scholarship in 2022</h6>
+                  <div class="card-text opacity-75">fri, sep 30 - wed, Nov 30 <br> 7,472 attendess         </div>
+                  <a href="#" class="btn btn-outline-primary  rounded-5 w-100" style="margin-top: 0px;">view</a>
+
+                </div>
+
+              </div>
+            </div>
+            <div class="col ">
+              <div class="card" style="width: 230px;">
+                <img src="./image/evcover3.png" class="card-img-top" alt="..." >
+                <div class="card-body hov">
+                  <h6 class="card-title " style="margin-top: -10px;">Get Full Training Scholarship in 2022</h6>
+                  <div class="card-text opacity-75">fri, sep 30 - wed, Nov 30 <br> 7,472 attendess         </div>
+                  <a href="#" class="btn btn-outline-primary  rounded-5 w-100" style="margin-top: 0px;">view</a>
+
+                </div>
+
+              </div>
+            </div>
+            <div class="col ">
+              <div class="card" style="width: 230px;">
+                <img src="./image/evcover4.png" class="card-img-top" alt="..." >
+                <div class="card-body hov">
+                  <h6 class="card-title " style="margin-top: -10px;">Get Full Training Scholarship in 2022</h6>
+                  <div class="card-text opacity-75">fri, sep 30 - wed, Nov 30 <br> 7,472 attendess         </div>
+                  <a href="#" class="btn btn-outline-primary  rounded-5 w-100" style="margin-top: 0px;">view</a>
+
+                </div>
+
+              </div>
+            </div>
+            <div class="col ">
+              <div class="card" style="width: 230px;">
+                <img src="./image/evcover5.png" class="card-img-top" alt="..." >
+                <div class="card-body hov">
+                  <h6 class="card-title " style="margin-top: -10px;">Get Full Training Scholarship in 2022</h6>
+                  <div class="card-text opacity-75">fri, sep 30 - wed, Nov 30 <br> 7,472 attendess         </div>
+                  <a href="#" class="btn btn-outline-primary  rounded-5 w-100" style="margin-top: 0px;">view</a>
+
+                </div>
+
+              </div>
+            </div>
+             <div class="col ">
+              <div class="card" style="width: 230px;">
+                <img src="./image/evcover6.png" class="card-img-top" alt="..." >
+                <div class="card-body hov">
+                  <h6 class="card-title " style="margin-top: -10px;">Get Full Training Scholarship in 2022</h6>
+                  <div class="card-text opacity-75">fri, sep 30 - wed, Nov 30 <br> 7,472 attendess         </div>
+                  <a href="#" class="btn btn-outline-primary  rounded-5 w-100" style="margin-top: 0px;">view</a>
+
+                </div>
+
+              </div>
+            </div>
+
+    </div>
+  </div>
+
+<!-- end 4 -->
+
+</div>
+
+<div class="box">
+  <div class="col-3 fixed ">
+<div class=" card shadow-lg ">
+  <span id="mor">
+  <div class="flex justify-content-between p-2 head">
+      <div class=" flex ">
+          <img src="./image/mo.gamal.jfif" class="img-fixed">
+      <p class="ms-2 mb-0">messaging</p>
+       </div>
+       <div class="btn border border-0 form-control-lg "  style="margin-left: 70px;" >  ...</div>
+       <img style="width: 20px; margin-left: -30px;" src="../image/edit.png "  alt="">
+       
+       <img id="im" style="width: 20px; margin-left: -25px;"  src="./image/down.png " onclick="myFun()" id="myim" alt="">
+     
+  </div>
+  </span>
+  <hr class="my-1">
+  <span id="dot">
+  <div class="hid">
+<div class="card-body header-search ">
+  <i class="material-icons"> search </i>
+  <input type="text" placeholder=" Search messages">
+</div><br>   
+<div class="imag ">
+  <img class="mx-1" src="./image/pic2.jpg" alt="" >
+  <h6>AbdElrahman</h6>  
+ <p> ES7A  ya Ahmed
+<hr style="margin-left: 50px;">
+ </p>
+
+</div>
+<div class="imag ">
+  <img class="mx-1" src="./image/pic2.jpg" alt="" >
+  <h6>AbdElrahman</h6>  
+ <p>ES7A  ya Ahmed
+<hr style="margin-left: 50px;">
+ </p>
+
+</div><div class="imag ">
+  <img class="mx-1" src="./image/pic2.jpg" alt="" >
+  <h6>AbdElrahman</h6>  
+ <p> ES7A  ya Ahmed
+<hr style="margin-left: 50px;">
+ </p>
+
+</div><div class="imag ">
+  <img class="mx-1" src="./image/pic2.jpg" alt="" >
+  <h6>AbdElrahman</h6>  
+ <p> ES7A  ya Ahmed
+<hr style="margin-left: 50px;">
+ </p>
+
+</div><div class="imag ">
+  <img class="mx-1" src="./image/pic2.jpg" alt="" >
+  <h6>AbdElrahman</h6>  
+ <p>ES7A  ya Ahmed
+<hr style="margin-left: 50px;">
+ </p>
+
+
+</div><div class="imag ">
+  <img class="mx-1" src="./image/pic2.jpg" alt="" >
+  <h6>AbdElrahman</h6>  
+ <p> ES7A  ya Ahmed
+<hr style="margin-left: 50px;">
+ </p>
+
+
+</div>
+</span>
+</div>
+</div>
+
+
+</div>
+
+</div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+  <script src="./script.js"></script>
+
+</body>
+
+</html
