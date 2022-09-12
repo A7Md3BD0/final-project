@@ -1,0 +1,18 @@
+body{
+    background-color: #F3F2EF;
+  }
+  .navbar{
+    background-color: white;
+  }
+  .pp h2 {
+    margin-top:-39px ;
+    margin-left: 60px;
+    margin-bottom: -10px;
+  }
+  .pp h5 {
+    margin-top:-33px ;
+    margin-left: 40px;
+  }
+  .list{
+    border-radius: 10px;
+  }
